@@ -1,3 +1,11 @@
 ## Sensor Data Simulation
 
-This project simulates analog sensor readings on STM32 using the Hardware Abstraction Layer (HAL), leveraging Timers, PWM, and ADC for seamless integration into an IoT system. Sensor data is transmitted to an ESP32 via UART with a handshake mechanism to ensure reliable communication, enabling real-time control, monitoring, and cloud connectivity.
+This project simulates analog sensor readings on STM32 using the Hardware Abstraction Layer (HAL). The simulated data is transmitted to an ESP32 for integration into [IoT Control and Monitor System](https://github.com/HajjSalad/ESP32-IoT-Control-and-Monitor-System).
+
+####Tools
+**PWM:**Generate analog-like signals for sensor simulation.
+**ADC:**Sample the PWM signals to convert them into digital sensor data.
+**UART:**Transmit the simulated sensor data from STM32 to ESP32.
+
+#### Demo
+View the demo in action. ![Elevator Control Demo]() 
