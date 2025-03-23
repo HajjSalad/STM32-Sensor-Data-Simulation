@@ -19,6 +19,7 @@
 
 # Ignore IDE-specific project settings
 .settings/
+*.mxproject
 *.cproject
 *.project
 *.launch
